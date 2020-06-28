@@ -8,7 +8,7 @@ const Goodbye = dynamic(() => import("../components/Goodbye"), {
         height: "calc(100% + 20px)",
         width: "calc(100% + 200px)",
         margin: "-20px -100px",
-        background: "#bbb",
+        background: "#fff",
       }}
     />
   ),

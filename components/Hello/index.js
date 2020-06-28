@@ -4,12 +4,12 @@ function Hello() {
   return (
     <div>
       <div className="hello">Hello World</div>
-      <Link href="/portal">
-        <a>View Portal</a>
-      </Link>
-      <br />
       <Link href="/page">
         <a>View Normal Page</a>
+      </Link>
+      <br />
+      <Link href="/portal">
+        <a>View Portal</a>
       </Link>
       <style jsx>{`
         .container {
