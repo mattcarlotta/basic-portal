@@ -11,6 +11,7 @@ function Layout({ children, css }) {
           margin-top: 100px;
           padding: 10px;
           color: white;
+          text-align: left;
           ${css};
         }
       `}</style>
