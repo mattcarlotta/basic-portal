@@ -1,6 +1,9 @@
 import { createPortal } from "react-dom";
 import Link from "next/link";
 
+// this component is used to show what a component
+// would look like if it breaks outside of "div.__next"
+// and lays on top of it
 function Goodbye() {
   return createPortal(
     <div className="portal">

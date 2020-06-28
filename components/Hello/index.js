@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+// this component is used to show what a component
+// would look like if it stays within "div.__next"
 function Hello() {
   return (
     <div>

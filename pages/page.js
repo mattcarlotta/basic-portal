@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+// normal page wrapped by _app
 function Page() {
   return (
     <>

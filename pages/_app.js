@@ -1,3 +1,4 @@
+// wrapping all client pages in a layout
 const App = ({ Component, pageProps }) => (
   <div className="layout">
     <Component {...pageProps} />
