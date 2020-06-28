@@ -1,9 +1,9 @@
 // wrapping all client pages in a layout
 const App = ({ Component, pageProps }) => (
-  <div className="layout">
+  <div className="wrapper">
     <Component {...pageProps} />
     <style jsx>{`
-      .layout {
+      .wrapper {
         background: black;
         color: white;
         height: calc(100% - 20px);
